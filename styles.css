@@ -16,6 +16,9 @@ body{
 .centeredText{
     text-align: center;
 }
+.opacity1{
+    opacity: 1;
+}
 
 /* /////////// HEADER ///////////  */
 header{
@@ -114,4 +117,13 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.locationsContainer{
+    display: flex;
+}
+.location{
+    width: 300px;
+    background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
