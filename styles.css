@@ -143,3 +143,13 @@ a{
 .noMarginRight{
     margin-right: 0;
 }
+
+/* //// Contact //// */
+#contact{
+    height: 200px;
+}
+
+/* //// LOCATIONS //// */
+footer{
+    margin-left: 20px;
+}
