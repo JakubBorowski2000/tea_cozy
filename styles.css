@@ -8,7 +8,6 @@ html{
     font-size: 22px;
     color: seashell;
     background-color: black;
-    height: 2000px;
 }
 body{
     background-color: black;
@@ -117,13 +116,30 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#locations h2{
+    width: 100%;
+    margin-bottom: 15px;
 }
 .locationsContainer{
+    /* position: relative;
+    top: 15%; */
     display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 .location{
+    margin-right: 40px;
     width: 300px;
     background-color: black;
     padding-top: 1px;
     padding-bottom: 1px;
+}
+.noMarginRight{
+    margin-right: 0;
 }
